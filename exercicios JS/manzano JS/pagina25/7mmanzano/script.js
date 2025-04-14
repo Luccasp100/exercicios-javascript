@@ -1,0 +1,11 @@
+let A;
+let B;
+let C;
+let soma;
+let quadrado_da_soma;
+A = parseInt(prompt("Digite o valor de A:"));
+B = parseInt(prompt("Digite o valor de B:"));
+C = parseInt(prompt("Digite o valor de C:"));
+soma = A + B + C;
+quadrado_da_soma = soma * soma;
+alert("O quadrado da soma de A, B e C é: " + quadrado_da_soma);
